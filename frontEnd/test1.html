@@ -1,0 +1,68 @@
+<html>
+
+    <head>
+        <!--- 선언문이 들어가야함 --->
+        <!--- 이거해야 JS 사용가능 --->
+        <script> 
+                var box = '100a'; 
+                box = (box*1) + 30; 
+                document.write(box);
+       </script>
+
+    </head>
+
+    <body>
+
+        Hello, World<br/>
+        안녕하세요
+        반갑습니다 
+        <p/>
+        
+        <form action="http://www.naver.com" method="post">
+        <!--- 
+        method = get하면, name정의한거랑,,, 이런거,, 주소에 뜸
+
+         
+            <input type='text'></br>
+            <input type='text' value="안녕하세요"></br> 
+        --->
+
+            <input type='text' name="search" placeholder="안녕하세요">
+            <input type='button' value = "검색"> 
+            <p/>
+            
+            <input type='radio' name='a' value="r1">라디오1 </br>
+            <input type='radio' name='a' value="r2">라디오2 </br>           
+            <input type='radio' name='c' value="r3">라디오3 </br>
+            <p/>
+
+            <input type="checkbox" name='b' value="v1">체크 </br>
+            <input type="checkbox" name='b' value="v2">체크 </br>
+            <input type="checkbox" name='b' value="v3">체크 </br>
+            <p/>
+
+            <input type="submit" value="전송">
+            <!--- submit은 form태그 안에있는 내용들을 서버로 넘기는것, form 안에 묶여있는것만 넘어감 --->
+
+
+        </form>
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
